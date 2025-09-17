@@ -12,7 +12,7 @@ int main () {
     printf("Enter the integral representation of your fifth card: ");
     scanf("%d", &card5);
 
-    //not entertaining the logic of five of kind bacause it is impossible in a normal deck of card
+    //not entertaining the logic of five of kind because it is impossible in a normal deck of card
 
     if (card1 == card2 == card3 && card4 == card5) {
         printf("This poker hand is a full house.\n");

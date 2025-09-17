@@ -33,7 +33,7 @@ int main () {
     else if (card1 == card3 == card4 && card2 == card5) {
         printf("This poker hand is a full house.\n");
     }
-    else if (card1 == card3 == card5 && card4 == card5) {
+    else if (card1 == card3 == card5 && card2 == card4) {
         printf("This poker hand is a full house.\n");
     }
     else if (card1 == card4 == card5 && card2 == card3) {
